@@ -22,10 +22,10 @@ function deepestChild() {
 
   do {
     for( let i in nodes ) {
-      let n = Array.from(nodes[i].children)
-      
+      let n = nodes[i].children
+
       if( typeof n != 'undefined' ) {
-        deeper_nodes.push(n)
+        deeper_nodes.push(Array.from(n))
       }
     }
 
