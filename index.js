@@ -30,8 +30,6 @@ function deepestChild() {
       }
     }
 
-    console.log(deeper_nodes)
-
     if( deeper_nodes.length > 0 ) {
       nodes = deeper_nodes.slice(0)
       deeper_nodes = []
