@@ -24,7 +24,7 @@ function deepestChild() {
     for( let i in nodes ) {
       let n = nodes[i].children
       if( typeof n != 'undefined' ) {
-        deeper_nodes.push(n)
+        deeper_nodes.push(nodes[i])
       }
     }
 
