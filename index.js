@@ -23,13 +23,11 @@ function deepestChild() {
   do {
     for( let i in nodes ) {
       let n = nodes[i].hasChildNodes
+      console.log(n)
       if( typeof n != 'undefined' ) {
         deeper_nodes.push(nodes[i])
       }
     }
-
-    console.log(nodes)
-    console.log("------")
 
     if( deeper_nodes.length > 0 ) {
       nodes = deeper_nodes.slice(0)
