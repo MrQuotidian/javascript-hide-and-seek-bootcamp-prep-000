@@ -38,5 +38,5 @@ function deepestChild() {
     }
     else { return nodes[0] }
 
-  } while( nodes.length > 0 )
+  } while( false )
 }
