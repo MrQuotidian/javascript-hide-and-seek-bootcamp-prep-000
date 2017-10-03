@@ -37,5 +37,3 @@ function deepestChild() {
 
   } while( nodes.length > 0 )
 }
-
-deepestChild()
